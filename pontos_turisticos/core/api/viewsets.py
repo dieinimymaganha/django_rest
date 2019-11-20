@@ -15,3 +15,6 @@ class PontoTuristicoViewSet(ModelViewSet):
 
     # def create(self, request, *args, **kwargs):
     #     return Response({'Hello': request.data['nome']})
+
+    # def destroy(self, request, *args, **kwargs):
+    #     pass
