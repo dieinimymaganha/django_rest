@@ -43,7 +43,6 @@ class PontoTuristicoSerializer(ModelSerializer):
         doc = validated_data['doc_identificacao']
         del validated_data['doc_identificacao']
 
-
         ponto = PontoTuristico.objects.create(**validated_data)
         self.cria_atracaoes(atracaoes, ponto)
 
